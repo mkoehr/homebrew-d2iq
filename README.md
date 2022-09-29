@@ -1,10 +1,10 @@
-# Mkoehr Dkp
+# Homebrew Tap for D2IQ dkp
 
-## How do I install these formulae?
+## How do I install this formula?
 
-`brew install mkoehr/dkp/<formula>`
+`brew install mkoehr/d2iq/dkp`
 
-Or `brew tap mkoehr/dkp` and then `brew install <formula>`.
+Or `brew tap mkoehr/d2iq` and then `brew install dkp`.
 
 ## Documentation
 
