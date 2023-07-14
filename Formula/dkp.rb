@@ -1,18 +1,18 @@
 class Dkp < Formula
   desc "D2IQ Kubernetes Platform command line tool"
   homepage "https://www.d2iq.com/"
-  version "2.4"
+  version "2.5.1"
 
   depends_on "kubernetes-cli"
   depends_on "awscli" => :optional
   
   if OS.mac? && Hardware::CPU.intel?
-    url "https://downloads.d2iq.com/dkp/v2.4.0/dkp_v2.4.0_darwin_amd64.tar.gz"
-    sha256 "4e99d18b7fd9d309b56e6818942d69eb7de631fcc3ecbf6663c46baa9db6fd25"
+    url "https://downloads.d2iq.com/dkp/v2.5.1/dkp_v2.5.1_darwin_amd64.tar.gz"
+    sha256 "095f942c7e99ddaad4d81ff469b871d6212451c456888253452fb23efae4d3c3"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://downloads.d2iq.com/dkp/v2.4.0/dkp_v2.4.0_linux_amd64.tar.gz"
-    sha256 "23d185b9f8dfb09cfeb4c9f32ad324355b40ce6a4099c47eb780701b246978d3"
+    url "https://downloads.d2iq.com/dkp/v2.5.1/dkp_v2.5.1_linux_amd64.tar.gz"
+    sha256 "747b1825a2a4ff90d0ca49db09db938477e0690e410e5292392f3fa57e4e98f4"
   end
   conflicts_with "dkp"
 
